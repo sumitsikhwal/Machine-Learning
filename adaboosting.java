@@ -9,12 +9,12 @@ import java.lang.Math.*;
 public class realadaboosting {
 	
 	
-	public static void main(String[] args) throws IOException 
+  public static void main(String[] args) throws IOException 
     {
-	  String filename = "src/myfiles1/file2.txt";
-	  int numberoflines = 0;
-	  int maxvalue;
-	  int counter1;
+      String filename = "src/myfiles1/file2.txt";
+      int numberoflines = 0;
+      int maxvalue;
+      int counter1;
       int error = 0;
       int error1 = 0;
       int error2 = 0;
@@ -27,27 +27,27 @@ public class realadaboosting {
       double epsilon1 = 0;double epsilon = 0;
       double BoundonError = 1;
       String lessorgreater1 = "";
-	  String plus1 = "1";
-	  String minus1 = "-1";
-	  int noofiterations = 0;
-	  ArrayList xvalue = new ArrayList();
-	  ArrayList zvalue1 = new ArrayList();
-	  ArrayList yvalue = new ArrayList();
-	  ArrayList pvalue = new ArrayList();
-	  ArrayList newpvalue = new ArrayList();
-	  ArrayList error3 = new ArrayList();
-	  ArrayList epsilon2 = new ArrayList();
-	  ArrayList threshold = new ArrayList();
-	  ArrayList lessorgreater = new ArrayList();
-	  ArrayList qvalue1 = new ArrayList();
-	  ArrayList prenormalpvalue = new ArrayList();
-	  ArrayList Gvalue = new ArrayList();
-	  ArrayList PRplus = new ArrayList();
-	  ArrayList PRminus = new ArrayList();
-	  ArrayList PWminus = new ArrayList();
-	  ArrayList PWplus = new ArrayList();
-		 FileReader fr = new FileReader(filename)  ;
-         BufferedReader textReader = new BufferedReader(fr);
+      String plus1 = "1";
+      String minus1 = "-1";
+      int noofiterations = 0; 
+      ArrayList xvalue = new ArrayList();
+      ArrayList zvalue1 = new ArrayList();
+      ArrayList yvalue = new ArrayList();
+      ArrayList pvalue = new ArrayList();
+      ArrayList newpvalue = new ArrayList();
+      ArrayList error3 = new ArrayList();
+      ArrayList epsilon2 = new ArrayList();
+      ArrayList threshold = new ArrayList();
+      ArrayList lessorgreater = new ArrayList();
+      ArrayList qvalue1 = new ArrayList();
+      ArrayList prenormalpvalue = new ArrayList();
+      ArrayList Gvalue = new ArrayList();
+      ArrayList PRplus = new ArrayList();
+      ArrayList PRminus = new ArrayList();
+      ArrayList PWminus = new ArrayList();
+      ArrayList PWplus = new ArrayList(); 
+      FileReader fr = new FileReader(filename)  ;
+      BufferedReader textReader = new BufferedReader(fr);
          while((textReader.readLine()) != null){
         	  numberoflines = numberoflines + 1; }
         	  System.out.println("numberoflines :"+numberoflines);
