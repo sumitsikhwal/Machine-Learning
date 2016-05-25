@@ -115,8 +115,8 @@ public class realadaboosting {
    // String minus1 = "-1";
     int counter3;
     int counter2;int counter4;
- for (int iteration = 0; iteration < noofiterations ;iteration++)
- {     
+    for (int iteration = 0; iteration < noofiterations ;iteration++)
+ 	{     
 	  System.out.println("|testing 3|");
 	  for (counter1 = 0; counter1 < xvalue.size() - 1;counter1 ++){
    	   error = 0;
